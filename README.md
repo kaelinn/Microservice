@@ -18,3 +18,5 @@ app.get('/quote', (req,res) => {
 
  Once the quote is received on the backend, another GET request is made to the port on which the backend is running with endpoint /quote so that the quote can then be accessed by the frontend and displayed.
 
+UML Sequence Diagram
+![UML](https://github.com/kaelinn/Microservice/assets/114119985/df281b4d-ba65-4538-9636-b3481ed678dd)
